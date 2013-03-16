@@ -1,6 +1,6 @@
 {
   "name": "trix",
-  "description": "dMVC - Configuration Layer",
+  "description": "Configuration Distribution",
   "version": "0.0.0",
   "author": "nomilous <nomilous@gmail.com>",
   "contributors": [
@@ -10,6 +10,10 @@
     }
   ],
   "repository": "git@github.com:nomilous/trix.git",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "knax": "0.0.1"
+  },
+  "devDependencies": {
+    "nez": "0.0.2"
+  }
 }

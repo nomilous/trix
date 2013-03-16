@@ -1,4 +1,5 @@
 trix
 ====
 
-Configuration Layer (dMVC)
+Configuration Distribution
+
