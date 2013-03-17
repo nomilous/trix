@@ -18,5 +18,8 @@ Trix = require('nez').objective 'Trix',
 
     """, (requirement) ->
 
+        requirement.link 'requirements/distribute_ability'
+        requirement.link 'requirements/upgrade_ability'
+        requirement.link 'requirements/rollback_ability'
+        requirement.link 'requirements/manage_ability'
 
-        requirement.link 'requirements/upgradability'
