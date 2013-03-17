@@ -1,0 +1,22 @@
+#!/usr/bin/env coffee
+
+Trix = require('nez').objective 'Trix',
+
+    nimbal: 'https://localhost:10101/'
+
+    class: 'Configuration Distribution'
+
+    category: 'Distributed Systems'
+
+    description: """
+
+
+        The source and destination components of a
+        systems configuration distribution layer.
+
+
+
+    """, (requirement) ->
+
+
+        requirement.link 'requirements/upgradability'
